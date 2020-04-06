@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/base.css">
+    <script src="/jquery.js" defer></script>
+    <script src="/reg.js" defer></script>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login or register</h1>
+    <div class="register">
+        <h3>Create an account, if you haven't</h3>
+        <div class="regname d-flex">
+            <p>Nick</p>
+            <input type="text" id="name">
+        </div>
+        <div class="regMail d-flex">
+            <p>E-mail</p>
+            <input type="email" id="email">
+        </div>
+        <div class="regPw d-flex">
+            <p>Password</p>
+            <input type="password" id="pw">
+        </div>
+        <div class="regPwAgain d-flex">
+            <p>Password again</p>
+            <input type="password" id="pwAgain">
+        </div>
+        <div class="messages">
+            <h3 id="empty" class="hidden">A field is empty</h3>
+            <h3 id="good" class="hidden">Saved</h3>
+            <h3 id="wrong" class="hidden">User already exist</h3>
+            <h3 id="pwcrash" class="hidden">Password not the same</h3>
+        </div>
+        <button class="regButton success">Register</button>
+    </div>
+    <div class="login">
+        <h3>Login, if you already have an account</h3>
+        <div class="lognick d-flex">
+            <p>Nick</p>
+            <input type="text" id="logNick">
+        </div>
+        <div class="logPw d-flex">
+            <p>Password</p>
+            <input type="password" id="logPw">  
+        </div>
+        <div class="messages">
+            <h3 id="wrongpw" class="hidden">Something wrong</h3>
+        </div>
+
+        <button class="loadButton success">Login</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+}
+p{
+    width:120px;
+}
+button{
+    margin-top:20px;
+    height:25px;
+    border-radius: 3px;
+    padding:4px;
+}
+button.success{
+    background-color: green;
+    color:white;
+}
+.register{
+    margin:15px;
+}
+.login{
+    margin:15px;
+}
+.d-flex{
+    display: flex;
+    margin:10px;
+}
+
+.hidden{
+    display: none;
+}
+.messages{
+    margin-left:50px;
+    color:red;
+}
+
+.userfield{
+    margin:15px;
+}
